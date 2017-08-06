@@ -1,7 +1,65 @@
-# slider
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slider</title>
+  <!-- <script src="https://cdn.bootcss.com/markdown.js/0.5.0/markdown.min.js"></script> -->
+  <script src="https://cdn.bootcss.com/marked/0.3.6/marked.min.js"></script>
+  <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/github.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/languages/less.min.js"></script> 
+  <link rel="stylesheet" href="pageBlade/demoPage.css">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/lodash.js/4.17.4/lodash.min.js"></script>
+  <script src="pageBlade/demoPage.js"></script> 
+  <link rel="stylesheet" href="slider.css">
+  <script src="slider.js"></script> 
+  <link rel="stylesheet" href="use.css">
+  <script src="use.js"></script> 
+</head>
+
+<body>
+  <div class="mainWrapper">
+    <div class="headerWrapper">
+      <div class="contentWrapper">
+        <div class="mainHeader">
+          <div class="demoImg">
+          </div>
+          <div class="demoInfo">
+            <h1>
+              Slider（轮播）
+            </h1>
+            <p>轮播插件，可调整一些配置，懒加载和跳转支持。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainContent">
+      <div class="contentWrapper">
+        <div class="pjWrapper">
+        </div>
+      </div>
+    </div>
+  <div class="footerWrapper">
+    <div class="contentWrapper">
+      -- Seognil Lab -- LC -- 2017 --
+    </div>
+  </div>
+  </div>
+</body>
+<script id="md" type="text/markdown">
 ## DEMO
-https://seognil-lab.github.io/slider/
+
+<div class="demoWrapper">
+  <div class="sliderDemo">
+    <div data-src="http://cdn.akamai.steamstatic.com/steam/apps/241320/ss_8276fd1d4ac916af3a30f237f581a3c63d88f20c.1920x1080.jpg" data-url="http://store.steampowered.com/app/241320/Ittle_Dew/"></div>
+    <div data-src="http://cdn.akamai.steamstatic.com/steam/apps/210970/ss_fabb0939200a1f2bbb40b775c8e07645f21dc44a.1920x1080.jpg" data-url="http://store.steampowered.com/app/210970/The_Witness/"></div>
+    <div data-src="http://cdn.akamai.steamstatic.com/steam/apps/219890/ss_62a1e3085fee312cf6c1025ec89018fa98821d99.1920x1080.jpg" data-url="http://store.steampowered.com/app/219890/Antichamber/"></div>
+  </div>
+</div>
 
 ## 用例
 ```
@@ -113,3 +171,7 @@ function openPage(param) {
 * 可点击和拖动
 * 导航圆点
 * 过量拖动保护
+
+</script> 
+
+</html>
